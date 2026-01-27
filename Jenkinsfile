@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        APP_NAME = "simple-devops-app"
+        APP_NAME = "CI-CD-DevOps-App"
         CONTAINER_NAME = "xenodochial_brown"
         PORT = "3000"
     }
